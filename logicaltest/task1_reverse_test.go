@@ -23,10 +23,4 @@ func TestReverse(t *testing.T) {
 			}
 		})
 	}
-	// text := "italem irad irigayaj"
-	// want := "melati dari jayagiri"
-	// result := Reverse(text)
-	// if result != want {
-	// 	t.Errorf("expected %s, found %s", want, result)
-	// }
 }

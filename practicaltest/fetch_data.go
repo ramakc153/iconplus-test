@@ -50,24 +50,20 @@ func FetchBody(url string, dataStruct interface{}) {
 	if err != nil {
 		log.Panicln("error when unmarshaling data: ", err)
 	}
-	// for _, v := range dataStruct {
-	// 	fmt.Println(v)
-
-	// }
-	// return
 	defer resp.Body.Close()
 }
 
 func PrintData() {
-	fmt.Println("Hello from pracitaltest server")
 	fmt.Println("=============BOOKING DATA==========")
 	FetchBody(BOOKINGURL, &bookingData)
-	for _, v := range bookingData {
-		fmt.Println(v)
-	}
+	// print response data if needed
+	// for _, v := range bookingData {
+	// 	fmt.Println(v)
+	// }
 	fmt.Println("=============KONSUMSI DATA==========")
 	FetchBody(KONSUMSIURL, &konsumsiData)
-	for _, v := range konsumsiData {
-		fmt.Println(v)
-	}
+	// print response data if needed
+	// for _, v := range konsumsiData {
+	// 	fmt.Println(v)
+	// }
 }

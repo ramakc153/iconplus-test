@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello from iconplus-test")
+	fmt.Println("iconplus-test server is running")
 	practicaltest.PrintData()
 	practicaltest.Response()
 	practicaltest.Server()

@@ -2,11 +2,6 @@ package logicaltest
 
 import "strings"
 
-// type Student struct {
-// 	name string
-// 	age  int
-// }
-
 func Reverse(text string) string {
 	var result string
 	splitted := strings.Split(text, " ")
@@ -19,11 +14,3 @@ func Reverse(text string) string {
 	}
 	return strings.TrimSpace(result)
 }
-
-// func Haha(){
-// 	// var students []Student
-// 	students := []Student{
-// 		{"hao",21},
-
-// 	}
-// }
