@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	practicaltest "iconplus-test/practical-test"
+	"iconplus-test/practicaltest"
 )
 
 func main() {
 	fmt.Println("Hello from iconplus-test")
-	practicaltest.Server()
+	practicaltest.PrintData()
 	practicaltest.Response()
+	practicaltest.Server()
 }

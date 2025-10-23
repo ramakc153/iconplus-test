@@ -37,7 +37,6 @@ var bookingData []BookingBody
 var konsumsiData []KonsumsiBody
 
 func FetchBody(url string, dataStruct interface{}) {
-	// var bookingData []BookingBody
 	resp, err := http.Get(url)
 	if err != nil {
 		log.Println("error when fetching: ", err.Error())
@@ -59,7 +58,7 @@ func FetchBody(url string, dataStruct interface{}) {
 	defer resp.Body.Close()
 }
 
-func Server() {
+func PrintData() {
 	fmt.Println("Hello from pracitaltest server")
 	fmt.Println("=============BOOKING DATA==========")
 	FetchBody(BOOKINGURL, &bookingData)
