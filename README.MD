@@ -8,6 +8,7 @@
 ```bash
 git clone https://github.com/ramakc153/iconplus-test/
 
+cd iconplus-test
 #on windows
 go build . && ./iconplus-test.exe
 
@@ -15,6 +16,9 @@ go build . && ./iconplus-test.exe
 go build . && ./iconplus-test
 
 ```
+<p> if the server is running, you can check on your browser</p>
+
+`localhost:8080`
 
 <summary><code>GET</code> <code><b>/</b></code> <code>to check if the server is running</code></summary>
 <summary><code>GET</code> <code><b>/api</b></code></summary>
