@@ -27,6 +27,7 @@ go build . && ./iconplus-test
 
 | Name  | Type | 
 |-------|-----|
+| id | int |
 | officeName | string |
 | roomName| string  | 
 | usagePercentage | float    |

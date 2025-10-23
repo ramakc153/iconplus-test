@@ -6,6 +6,7 @@ type FoodList struct {
 }
 
 type ProcessingData struct {
+	Id               int
 	UnitInduk        string
 	UsagePercentage  float32
 	ConsumptionPrice int
