@@ -16,15 +16,18 @@ go build . && ./iconplus-test
 
 ```
 
-<summary><code>POST</code> <code><b>/</b></code>
-<summary><code>GET</code> <code><b>/api</b></code></br>
-| Name  | Type | City     |
-|-------|-----|----------|
-| officeName | 25  | New York |
-| roomName| 30  | London   |
-| usagePercentage | 28  | Paris    |
-| ConsumptionPrice | 28  | Paris    |
-| Consumption List | 28  | Paris    |
+<summary><code>GET</code> <code><b>/</b></code> <code>to check if the server is running</code></summary>
+<summary><code>GET</code> <code><b>/api</b></code></summary>
+
+### Response fields
+
+| Name  | Type | 
+|-------|-----|
+| officeName | string |
+| roomName| string  | 
+| usagePercentage | float    |
+| ConsumptionPrice | int  |
+| Consumption List | array of objects |
 
 <h1>How to run the test file </h1>
 
