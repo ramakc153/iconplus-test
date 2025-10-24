@@ -51,4 +51,4 @@ go test -v
 
 <p>Due to lack of information from the base API, usagePercentage field is calculate by hours used in X room / total hours used across all the room</p><br>
 
-<p>this api is also available at <a href="http://api.emprordigy.my.id/api">api.emprordigy.my.id/api</a></p>
+<p>this api is also available at <a target="_blank" href="http://api.emprordigy.my.id/api">api.emprordigy.my.id/api</a></p>
